@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Fortness - Servidor Minecraft temático de hielo. Únete, compite y explora aventuras heladas.">
+    <meta name="theme-color" content="#071026">
+    <title>Fortness</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="index.html">
+                <img src="assets/fortness-logo.png" alt="Fortness logo" class="logo"
+                    onerror="this.style.display='none'">
+                <span class="brand-text">Fortness</span>
+            </a>
+            <nav class="main-nav" id="mainNav">
+                <a href="index.html">Inicio</a>
+                <a href="store.html">Tienda</a>
+            </nav>
+            <button class="nav-toggle" id="navToggle">☰</button>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container hero-inner">
+                <div class="hero-left">
+                    <h1>Fortness</h1>
+                    <p class="tagline">Un servidor Minecraft temático de hielo y aventuras — ¡explora, construye y
+                        compite!</p>
+
+                    <div class="server-card" id="join">
+                        <div class="server-info">
+                            <strong>IP del servidor:</strong>
+                            <span id="serverIp">mc.fortness.com</span>
+                        </div>
+                        <div class="server-actions">
+                            <button id="copyBtn">Copiar IP</button>
+                            <a class="btn secondary" href="https://discord.gg/R3x7Cbut6w" target="_blank"
+                                rel="noopener">Discord</a>
+                        </div>
+                    </div>
+
+                    <p class="small">Construye, sobrevive y participa en eventos semanales. Rangos, misiones y
+                        mini-juegos.</p>
+                </div>
+
+                <div class="hero-right">
+                    <div class="card preview">
+                        <img src="assets/fortness-logo.png" alt="Fortness" onerror="this.style.opacity=0.6">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="features container">
+            <h2>Características</h2>
+            <div class="grid">
+                <article class="feature">
+                    <h3>Survival con economía</h3>
+                    <p>Compra, vende y progresa con un sistema de economía integrado.</p>
+                </article>
+                <article class="feature">
+                    <h3>Mini-juegos</h3>
+                    <p>Peleas, parkour y arenas PvP para todos los niveles.</p>
+                </article>
+                <article class="feature">
+                    <h3>Eventos semanales</h3>
+                    <p>Compite por premios y contenido exclusivo cada semana.</p>
+                </article>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>© <span id="year"></span> Fortness</p>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
